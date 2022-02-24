@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97ffe5b4ebb47f4cb58cd8d7328a383, type: 3}
+  m_Name: BuildingsLibrary
+  m_EditorClassIdentifier: 
+  list:
+  - name: Wall
+    prefab: {fileID: 6500738323292158296, guid: be8bccbdd728fe04b90a7ab5dd80fb14, type: 3}
+    preview: {fileID: 6500738323292158296, guid: 6e658557a952f5745a039d1ccff9b357, type: 3}
+    image: {fileID: 21300000, guid: 46d54d76aa6749f418fd556eff92d2ed, type: 3}
+    cost: 20
+    sellWorth: 13
+  - name: Turret
+    prefab: {fileID: 7253052682166457613, guid: 96f28cc6593f8e4488ff07da47138d72, type: 3}
+    preview: {fileID: 5550280696946905742, guid: baf35d69ad9574a409fec72158435463, type: 3}
+    image: {fileID: 21300000, guid: 8cc2cb9e8325c184bb6cd5ce55799a4a, type: 3}
+    cost: 200
+    sellWorth: 50
+  - name: DoubleTurret
+    prefab: {fileID: 2733718097850988631, guid: fb0804bc5b521674189b10c7295b9651, type: 3}
+    preview: {fileID: 768476711597575889, guid: 0e41181f9468e1e439e9ecf3ff670218, type: 3}
+    image: {fileID: 21300000, guid: 8d99012d9db38474d83e03e3de8f4684, type: 3}
+    cost: 150
+    sellWorth: 55
+  - name: DoubleTurret
+    prefab: {fileID: 2733718097850988631, guid: fb0804bc5b521674189b10c7295b9651, type: 3}
+    preview: {fileID: 768476711597575889, guid: 0e41181f9468e1e439e9ecf3ff670218, type: 3}
+    image: {fileID: 21300000, guid: 8d99012d9db38474d83e03e3de8f4684, type: 3}
+    cost: 150
+    sellWorth: 55
+  - name: DoubleTurret
+    prefab: {fileID: 2733718097850988631, guid: fb0804bc5b521674189b10c7295b9651, type: 3}
+    preview: {fileID: 768476711597575889, guid: 0e41181f9468e1e439e9ecf3ff670218, type: 3}
+    image: {fileID: 21300000, guid: 8d99012d9db38474d83e03e3de8f4684, type: 3}
+    cost: 150
+    sellWorth: 55
